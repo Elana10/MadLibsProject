@@ -1,0 +1,14 @@
+
+{% extends 'base.html' %}
+{% block title%}Enter your parts of speech!{% endblock%}
+
+{% block content %} 
+    <form action="/formuser" method="post">
+        {% for prompt in story.prompts %}
+        <label for="{{prompt}}">{{prompt}}</label>
+        <input type="text" placeholder="Please enter a {{prompt}}" name="{{prompt}}">
+        {% endfor %}
+
+        <button>Show Me The Story!!</button>
+    </form>
+{% endblock %} 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/app.css">
+    <title>MaD LiBs FuN!</title>
+</head>
+<body>
+    <h1>MAD LIBS FUN!</h1>
+
+    <nav class="navbar">
+        <a href="/form">Our Mad Lib Story</a>
+        <a href="/create">Create A Mad Lib Story</a>
+        <a href="/results">Generated Mad Libs</a>
+    </nav>
+
+    <h2>{% block title%} {% endblock%} </h2>
+
+    <main>
+        {% block content %}  {% endblock %}
+    </main>
+
+</body>
+</html>

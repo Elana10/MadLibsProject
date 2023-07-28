@@ -1,0 +1,137 @@
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 80px; 
+    margin: 0;
+}
+
+h2 {
+    background-color:  black;
+    color: whitesmoke;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar {
+    background-color : whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+body {
+    height: 100vh;
+    background: repeating-linear-gradient(
+        20deg,
+        rgb(180, 229, 238),
+        rgb(180, 229, 238) 40px,
+        rgb(0, 162, 255) 40px,
+        rgb(0, 162, 255) 80px
+    );
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+input {
+    margin: 0;
+    padding-bottom: 5px;
+    color: black;
+    text-align: center;
+}
+
+label{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: larger;
+}
+
+button{
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(180, 229, 238);
+    border-radius: 8px;
+    border-color: rgb(0, 162, 255) ;
+
+}
+button:hover{
+    background-color: rgb(0, 162, 255);
+    color: rgb(180, 229, 238);
+}
+
+
+p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+}
+
+#new-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+#new-story {
+    height: 200px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

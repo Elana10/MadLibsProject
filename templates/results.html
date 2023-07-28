@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title%}Generated Stories{% endblock%}
+
+
+{% block content %}  
+    {% for story in stories %}
+        <p>
+            {{story}}
+        </p>
+        
+    {% endfor %}
+{% endblock %}
